@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <HTML>
 
 <HEAD>
 <TITLE>Irene's Website</TITLE>
 </HEAD>
-<body bgcolor="black">
-
+<body bgcolor="grey">
+<a href= "Portfolio.html" > Portfolio </a>
 <H1> <font color="white">Im Here For A Good Time Not A Long Time.</font></H1>
 
 <center><H2><font face="URW Chancery L, cursive" color="blue">Life Is Only As Good As You Allow It To Be</font></H2>
@@ -20,9 +19,15 @@
 <center><front face="OCR A Std, monospace" color= "pink"> Umm... Hi.</font>
 
 </BODY>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-CLICK ME!!!</button>
+<button onclick="myFunction()">CLICK ME!!!</button>
 
 <p id="demo"></p>
+
+<script>
+function myFunction() {
+document.getElementById("demo").innerHTML =  "Haha you listened to a button";
+}
+</script>
+<p id="demo"></p>
+</body>
 </HTML>
